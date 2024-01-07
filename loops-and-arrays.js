@@ -15,7 +15,6 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 
 
 
-
 // ==========================================
 // Opdracht 2
 // Schrijf een script dat ieder EVEN getal in onderstaande array met 2 vermenigvuldigd, en ieder ONEVEN getal met 3
@@ -30,7 +29,18 @@ const numbers = [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 4, 8, 15, 87, 76 ];
 
+/*
+for ( let i = 0 ; i < numbers.length ; i++) {
 
+    if (numbers[i] % 2 === 0)
+
+    console.log(numbers[i] * 2)
+
+    else {
+        console.log(numbers[i] *3)
+    }
+}
+*/
 
 
 
@@ -57,5 +67,10 @@ const squares = [30, 2, 8, 24, 11];
 //   'Het volume van 11 is 1331'
 // ]
 
+for ( let i = 0 ; i < squares.length ; i++) {
 
+   /* if (squares[i])*/
+
+        console.log("De M3 van "+squares[i]+" = " + squares[i] * squares[i] * squares[i])
+}
 
